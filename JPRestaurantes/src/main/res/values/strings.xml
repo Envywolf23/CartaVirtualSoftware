@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">JPRestaurantes</string>
+    <string name="mapa">Button</string>
+    <string name="menu">Button</string>
+    <string name="mesa">Button</string>
+    <string name="servicio">Button</string>
+    <string name="ver_ubicacion">Ver Ubicacion</string>
+    <string name="consultar_menu">Consultar Menu</string>
+    <string name="reservar_mesa">Reservar Mesa</string>
+    <string name="calificar_servicio">Calificar Servicio</string>
+    <string name="title_activity_maps">Locaciones</string>
+    <string name="name">Name</string>
+    <string name="titulo">Titulo</string>
+    <string name="detalle">Detalle</string>
+    <string name="todo">TODO</string>
+    <string name="entradas">Entradas</string>
+    <string name="bebidas">Bebidas</string>
+    <string name="fuertes">Fuertes</string>
+    <string name="postres">Postres</string>
+    <string name="huevos_rellenos">Huevos Rellenos</string>
+    <string name="sopa_tomate">Sopa de tomates y zanahorias con azafrán</string>
+    <string name="crema_esparragos">Crema de espárragos</string>
+    <string name="ceviche_pulpo">Ceviche de pulpo</string>
+    <string name="pescado_mariscos">Pescado en salsa de mariscos</string>
+    <string name="pulpo_olivo">Pulpo al olivo</string>
+    <string name="ratatouille">Ratatouille</string>
+    <string name="salmon_horno">Salmon al horno</string>
+    <string name="smoothie_oreo">Smoothie de Oreo</string>
+    <string name="smoothie_mora">Smoothie de mora azul, piña y Kale</string>
+    <string name="limonada">Limonada de frambuesa</string>
+    <string name="sangria">Sangria con romero</string>
+    <string name="precio_18_000">Precio: $18.000</string>
+    <string name="precio_23_000">Precio: $23.000</string>
+    <string name="precio_20_000">Precio: $20.000</string>
+    <string name="precio_22_000">Precio: $22.000</string>
+    <string name="precio_12_000">Precio: $12.000</string>
+    <string name="precio_13_000">Precio: $13.000</string>
+    <string name="precio_15_000">Precio: $15.000</string>
+    <string name="precio_6_500">Precio: $6.500</string>
+    <string name="precio_7_000">Precio: $7.000</string>
+    <string name="precio_8_000">Precio: $8.000</string>
+    <string name="cheesecake">Cheesecake de chocolate blanco</string>
+    <string name="turron">Turron de vino</string>
+    <string name="helado_cookie">Postre helado de Cookies and Cream</string>
+    <string name="tartaleta">Tartaleta de frutas</string>
+
+
+
+</resources>

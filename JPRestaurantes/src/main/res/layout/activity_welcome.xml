@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/holo_blue_bright"
+            android:onClick="VerMapa"
+            android:drawableLeft="@drawable/ic_ver_ubicacion"
+            android:drawableRight="@drawable/ic_ver_ubicacion"
+            android:text="@string/ver_ubicacion" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/holo_orange_dark"
+            android:onClick="ConsultarMenu"
+            android:drawableLeft="@drawable/ic_consultar_menu"
+            android:drawableRight="@drawable/ic_consultar_menu"
+            android:text="@string/consultar_menu" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:onClick="ReservarMesa"
+            android:drawableLeft="@drawable/ic_reservar_mesa"
+            android:drawableRight="@drawable/ic_reservar_mesa"
+            android:text="@string/reservar_mesa" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/holo_purple"
+            android:onClick="CalificarServicio"
+            android:drawableLeft="@drawable/ic_calificar_servicio"
+            android:drawableRight="@drawable/ic_calificar_servicio"
+            android:text="@string/calificar_servicio" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
